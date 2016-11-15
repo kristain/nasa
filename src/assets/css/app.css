@@ -1,0 +1,508 @@
+html {
+  font-size: 17px;
+}
+body {
+  background: #f8f8f8;
+}
+header .title {
+  background: #f8f8f8;
+}
+.bar .button-link {
+  color: #f00;
+}
+.bar-tab {
+  height: 2.9rem;
+  padding-top: .3rem;
+}
+
+header h1 .pull-right {
+  color: #FFF;
+  padding-right: 10px;
+  font-size: 14px;
+}
+
+.icon {
+  vertical-align: top;
+}
+.bar .icon {
+  line-height: inherit;
+}
+.bar .button.left-btn {
+  width: 2rem;
+  padding-left: .2rem;
+  text-align: left;
+}
+
+header .right-btn {
+  position: absolute;
+  right: 10px;
+  font-size: 14px;
+  line-height: 2rem;
+  color: #fff;
+}
+
+/* 过渡必需 */
+.expand-transition {
+  transition: all .3s ease;
+  height: 30px;
+  padding: 10px;
+  background-color: #eee;
+  overflow: hidden;
+}
+
+/* .expand-enter 定义进入的开始状态 */
+/* .expand-leave 定义离开的结束状态 */
+.expand-enter, .expand-leave {
+  height: 0;
+  padding: 0 10px;
+  opacity: 0;
+}
+
+.text-success {
+  color: #4EC226;
+}
+.text-danger {
+  color: #FF1015;
+}
+.text-gray {
+  color: #BEBEBE;
+}
+.text-warning {
+  color: #FF852D;
+}
+.text-black {
+  color: #000;
+}
+.text-error {
+  color: #FF3738;
+}
+
+.text-align-center {
+  text-align: center;
+}
+.text-align-right {
+  text-align: right;
+}
+
+.posr {
+  position: relative;
+  z-index: 1;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+.text-13 {
+  font-size: 13px;
+}
+.text-14 {
+  font-size: 14px;
+}
+
+.link-a {
+  color: #29A0FF;
+}
+
+
+.split-line-5 {
+  width:100%;
+  height:5px;
+  background:#F0F0F0;
+}
+.margin-15-0 {
+  margin: 15px 0px;
+}
+.margin-5-0 {
+  margin: 5px 0px;
+}
+
+.line-top {
+  border-top: 1px solid #E7E7E7;
+}
+.line-bottom {
+  border-bottom: 1px solid #E7E7E7;
+}
+.line-left {
+  border-left: 1px solid #E7E7E7;
+}
+.line-right {
+  border-right: 1px solid #E7E7E7;
+}
+.row .none-margin {
+  margin: 0;
+}
+.margin-left-15 {
+  margin-left: 15px;
+}
+
+input[type="tel"]  {
+  letter-spacing: 0.1em;
+}
+
+input[type="password"] {
+  font-size: 26px;
+  letter-spacing: 0.15em;
+}
+
+#app .content {
+  margin-bottom: 3rem;
+}
+
+.warning {
+  background: #FFF091;
+  padding: 10px;
+}
+
+/* Navigation */
+.bar-tab .tab-item.active, .bar-tab .tab-item:active {
+  color: #FF2947;
+}
+
+/**/
+.m-top-tips {
+  width: 100%;
+  color: #FF705F;
+  background: #fef5e1;
+  padding: 4px 10px;
+  font-size: 12px;
+}
+.m-top-tips-big {
+  width: 100%;
+  color: #f2443e;
+  background: #fef5e1;
+  padding: 3px 10px;
+  font-size: 12px;
+  min-height: 28px;
+  line-height: 28px;
+  margin-top: .1rem;
+}
+
+.task-tips-null {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #CCC;
+  margin-top: 15%;
+}
+.task-top {
+  padding: 15px;
+  text-align: center;
+  background: #f60;
+  color: #fff;
+}
+.task-top .money {
+  font-size: 38px;
+  font-weight: 550;
+}
+.task-top .money-title {
+
+}
+.task-top .money-account {
+  font-size: 24px;
+  font-weight: 500;
+  padding: 4px 1px;
+}
+.task-top .money-account-title {
+  font-size: 14px;
+
+}
+.task-box {
+  background: #f8f8f8;
+  padding: 5px 8px;
+}
+.task-box .task-box-title {
+  width: 100%;
+}
+.task-box .button-fill {
+  width: 100%;
+}
+.task-box .task-box-card {
+  background: #0099ff;
+  border-radius: 4px;
+  color: #FFF;
+  text-align: center;
+  padding: 15px 0px;
+  position: relative;
+}
+.task-box .task-box-card-sub {
+  font-size: 12px;
+}
+.task-box .task-box-card-title {
+  position: relative;
+}
+.task-box .task-box-card-title .task-dot {
+  position: absolute;
+  top: -18px;
+  right: -9px;
+  z-index: 100;
+  height: .8rem;
+  min-width: .8rem;
+  padding: 0 .2rem;
+  font-size: .6rem;
+  line-height: .8rem;
+  color: #fff;
+  vertical-align: top;
+  background: red;
+  border-radius: .5rem;
+  margin-left: .1rem;
+}
+.task-box .task-box-card-title a {
+  color: #fff;
+}
+.task-box .m-tips {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+}
+.task-box .m-tips .m-circle {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  background: #F48329;
+  border-radius: 50%;
+  text-align: center;
+  color: #FFF;
+  float: left;
+  margin: 0 6px 0 4px;
+}
+.task-box .m-tips .m-circle i {
+  font-size: 15px;
+}
+.task-box .m-tips .m-text {
+  float: left;
+  font-size: 13px;
+  line-height: 24px;
+  padding-left: 8px;
+}
+
+.task-content {
+  background: #FFF;
+  padding-left: 4%;
+}
+.task-content .row .item {
+  height: 60px;
+  padding-top: 10px;
+}
+.task-content .row .item .iconfont {
+  font-size: 20px;
+}
+.task-content .row .item .item-left-1 {
+  background: #e91e63;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  color: #FFF;
+  float: left;
+}
+.task-content .row .item .item-left-2 {
+  background: #e91e63;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  color: #FFF;
+  float: left;
+}
+.task-content .row .item .item-left-3 {
+  background: #e91e63;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  color: #FFF;
+  float: left;
+}
+.task-content .row .item .item-left-4 {
+  background: #e91e63;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  color: #FFF;
+  float: left;
+}
+.task-content .row .item .item-right {
+  float: left;
+  padding-left: 10px;
+  line-height: 40px;
+}
+
+/***************** list *******************/
+
+.text-center {
+  text-align: center;
+}
+.list {
+  padding: 0px 10px;
+}
+.list-item {
+  font-size: 14px;
+  padding: 10px;
+  margin: 3px 0px;
+  background-color: #fff;
+}
+.border-bottom {
+  border-bottom: 1px solid #E2E2E2;
+}
+.header-list-item {
+  position:  relative;
+}
+.header-little {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  border: 1px solid #666;
+  right: 30px;
+}
+/***************** list *******************/
+
+.loading-more {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  background: #FFF;
+  text-align: center;
+}
+.loading-nothing-more {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/**********task list ************/
+.task-list {
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+.task-list .task-list-title {
+  padding: 10px;
+  font-size: 13px;
+  border-bottom: 1px solid #E7E7E7;
+}
+.task-list .task-list-title a {
+  margin-left: 5px;
+}
+.task-list .task-list-body {
+  padding: 10px;
+}
+.task-list-body-left {
+  float: left;
+}
+.task-list-body-left img {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+.task-list-body-right {
+  float: left;
+  padding-left: 10px;
+  font-size: 12px;
+  max-width: 65%;
+}
+.task-list-body-right p {
+  margin: 4px 0px;
+}
+.task-list-footer {
+  position: relative;
+  padding: 3px 6px 8px;
+  min-height: 30px;
+  border-bottom: 1px solid #E7E7E7;
+}
+
+.task-list-footer .cancel-btn {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+}
+/**********task list ************/
+
+
+
+/********* task detail *********/
+.task-item-title {
+  width: 100%;
+  padding: 5px 10px;
+  background: #fff;
+  box-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid #efefef;
+  border-radius: 3px 3px 0 0;
+}
+
+.task-item-body {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 3px 3px;
+  font-size: 13px;
+}
+.task-item-body .task-item-body-left {
+  float: left;
+}
+.task-item-body .task-item-body-left img {
+  width: 64px;
+  height: 64px;
+  border-radius: 6px;
+  vertical-align: middle;
+}
+.task-item-body .task-item-body-right {
+  float: left;
+  padding-left: 10px;
+}
+.task-item-body .task-item-body-right p {
+  margin: 5px 0px;
+}
+
+.task-item-body .item {
+  margin-top: 5px;
+}
+/********* task detail *********/
+
+
+/*********************/
+.commo-label {
+  margin: 0 10px 0 0;
+  display: inline-block;
+}
+.commo-radio {
+  display: none
+}
+.commo-radioInput {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 100%;
+  display: inline-block;
+  height: 15px;
+  margin-right: 4px;
+  margin-top: -2px;
+  vertical-align: middle;
+  width: 15px;
+  line-height: 1
+}
+.commo-radio:checked+.commo-radioInput:after {
+  background-color: #57ad68;
+  border-radius: 100%;
+  content: "";
+  display: inline-block;
+  height: 9px;
+  margin: 2px;
+  width: 9px
+}
+.commo-checkbox.commo-radioInput, .commo-radio:checked+.commo-checkbox.commo-radioInput:after {
+  border-radius: 0
+}
+/*********************.
